@@ -13,27 +13,6 @@
 		<meta property="og:image" content="https://kolcom.fr/images/logo.svg" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<!-- Override: garder les détails des services toujours visibles (annule le reveal-on-hover),
-		     tout en gardant le changement de couleur au survol pour indiquer le lien. -->
-		<style>
-		/* Force l'affichage des contenus des tuiles (annule les règles qui les masquent pour les révéler au hover) */
-		.tiles article .content {
-		  display: block !important;
-		  opacity: 1 !important;
-		  transform: none !important;
-		  visibility: visible !important;
-		  max-height: none !important;
-		}
-
-		/* Conserver le comportement d'indication au survol (couleur) : aucune modification ici,
-		   on s'assure seulement que le bloc lien reste un bloc cliquable propre. */
-		.tiles article a {
-		  display: block;
-		  color: inherit;
-		  text-decoration: none;
-		}
-		</style>
 	</head>
 	<body class="is-preload">
 		<a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto;">Aller au contenu</a>
